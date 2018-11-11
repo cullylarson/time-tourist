@@ -1,0 +1,113 @@
+{
+    'currentTile': '4CScARGsYIOgTOq2Z1K5',
+    'ways': [
+        {
+            'id': 'lDssbR4lYOHbe8zEHBPH',
+            'kind': 'WALL',
+            'between': [
+                '4CScARGsYIOgTOq2Z1K5'
+            ]
+        },
+        {
+            'id': 'XfZyspcGPpZfMZT6enub',
+            'kind': 'WALL',
+            'between': [
+                '4CScARGsYIOgTOq2Z1K5'
+            ]
+        },
+        {
+            'id': 'beTfKKPVax11UHF9aHJl',
+            'kind': 'DOOR',
+            'open': false,
+            'between': [
+                '4CScARGsYIOgTOq2Z1K5',
+                'ifMNaUE0BfFiXDw1sSTz'
+            ]
+        },
+        {
+            'id': '0cBVBPQjWXq52ICRLjEt',
+            'kind': 'WALL',
+            'between': [
+                '4CScARGsYIOgTOq2Z1K5'
+            ]
+        },
+        {
+            'id': 'WrDF1Yd4kZ3Ms7402rNe',
+            'kind': 'WALL',
+            'between': [
+                'ifMNaUE0BfFiXDw1sSTz'
+            ]
+        },
+        {
+            'id': 'YVL2X161ImSBUJ7Tg23J',
+            'kind': 'WALL',
+            'between': [
+                'ifMNaUE0BfFiXDw1sSTz'
+            ]
+        },
+        {
+            'id': 'SiSIrNmGPlwzPxSIoANv',
+            'kind': 'PASSAGE',
+            'open': true,
+            'between': [
+                'ifMNaUE0BfFiXDw1sSTz',
+                '71O2oc9JZgMdMtsF37l9'
+            ]
+        },
+        {
+            'id': 'iLKN4YBFEfYIbzKendXk',
+            'kind': 'WALL',
+            'between': [
+                '71O2oc9JZgMdMtsF37l9'
+            ]
+        },
+        {
+            'id': 'ff8xI6kLTiQqngYreKHV',
+            'kind': 'PASSAGE',
+            'between': [
+                '71O2oc9JZgMdMtsF37l9',
+                ''
+            ]
+        },
+        {
+            'id': 'An2hTLohZBMQTjqusnLa',
+            'kind': 'PASSAGE',
+            'between': [
+                '71O2oc9JZgMdMtsF37l9',
+                ''
+            ]
+        }
+    ],
+    'tiles': [
+        {
+            'id': '4CScARGsYIOgTOq2Z1K5',
+            'name': 'Bomb Shelter',
+            'directions': {
+                'N': 'lDssbR4lYOHbe8zEHBPH',
+                'S': 'XfZyspcGPpZfMZT6enub',
+                'E': 'beTfKKPVax11UHF9aHJl',
+                'W': '0cBVBPQjWXq52ICRLjEt',
+            }
+        },
+        {
+            'id': 'ifMNaUE0BfFiXDw1sSTz',
+            'name': 'Passage East of Bomb Shelter',
+            'directions': {
+                'N': 'WrDF1Yd4kZ3Ms7402rNe',
+                'S': 'YVL2X161ImSBUJ7Tg23J',
+                'E': 'SiSIrNmGPlwzPxSIoANv',
+                'W': 'beTfKKPVax11UHF9aHJl',
+            }
+        },
+        {
+            'id': '71O2oc9JZgMdMtsF37l9',
+            'name': 'Junction East of Bomb Shelter',
+            'directions': {
+                'N': 'iLKN4YBFEfYIbzKendXk',
+                'S': 'ff8xI6kLTiQqngYreKHV',
+                'E': 'An2hTLohZBMQTjqusnLa',
+                'W': 'SiSIrNmGPlwzPxSIoANv',
+            }
+        }
+    ]
+}
