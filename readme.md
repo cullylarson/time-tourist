@@ -82,6 +82,10 @@
 
 1. Maybe show text in response to actions. For example: show action text when item #17 is used on element #78.
 
+1. Will probably need to write a program to help create maps. Can't do it manually.
+
+1. Since an "open" doorways and objects, will need to only allow one openable doorway or object in any direction. Then when "open" in that direction, the program will just pick the open-able element.
+
 ## Plot
 
 You walk up in a room. You don't remember anything. As you make your way through the map, you find letters and people to talk to that fill in your story. You were in the process of making a time machine to e.g. save the world. The time machine is the map; it's huge and you're wandering around inside it. Something happened (e.g. accident) and the machine was damaged and you were injured. You realize you need to fix the time machine. Most of your time is spent doing that. You're also learning more about why you're building the time machine. When you fix the time machine and are about to activate it, you find out something that makes you realize you've misunderstood the reason for the time machine. Maybe someone who's helped you along the way turns out to be evil and will use the machine for bad things. That's the end of the map; sort of a "to be continued" situation for a later map.

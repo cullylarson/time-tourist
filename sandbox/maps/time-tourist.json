@@ -74,9 +74,52 @@
             'kind': 'PASSAGE',
             'between': [
                 '71O2oc9JZgMdMtsF37l9',
-                ''
+                'AbGiC1KzhzSqD27JzxO'
             ]
-        }
+        },
+        {
+            'id': '1oJyq5tqj2IaMD2WUXRU',
+            'kind': 'WALL',
+            'between': [
+                'AbGiC1KzhzSqD27JzxO'
+            ]
+        },
+        {
+            'id': 'YFWFELIzzTiYVI7JBC8c',
+            'kind': 'WALL',
+            'between': [
+                'AbGiC1KzhzSqD27JzxO'
+            ]
+        },
+        {
+            'id': 'UXXDoKEOLpmJJRZLqovF',
+            'kind': 'DOOR',
+            'between': [
+                'AbGiC1KzhzSqD27JzxO',
+                'lu5JjYepEt64ncOWMsVA'
+            ]
+        },
+        {
+            'id': 'ckP95x0aUZpGS7mqOTUn',
+            'kind': 'WALL',
+            'between': [
+                'lu5JjYepEt64ncOWMsVA'
+            ]
+        },
+        {
+            'id': 'hnxbf0z3MiASDvnQNryD',
+            'kind': 'WALL',
+            'between': [
+                'lu5JjYepEt64ncOWMsVA'
+            ]
+        },
+        {
+            'id': 'z0i2eSZC5mKLO3edJPt',
+            'kind': 'WALL',
+            'between': [
+                'lu5JjYepEt64ncOWMsVA'
+            ]
+        },
     ],
     'tiles': [
         {
@@ -107,6 +150,26 @@
                 'S': 'ff8xI6kLTiQqngYreKHV',
                 'E': 'An2hTLohZBMQTjqusnLa',
                 'W': 'SiSIrNmGPlwzPxSIoANv',
+            }
+        },
+        {
+            'id': 'AbGiC1KzhzSqD27JzxO',
+            'name': 'Passage West of Control Room',
+            'directions': {
+                'N': '1oJyq5tqj2IaMD2WUXRU',
+                'S': 'YFWFELIzzTiYVI7JBC8c',
+                'E': 'UXXDoKEOLpmJJRZLqovF',
+                'W': 'An2hTLohZBMQTjqusnLa',
+            }
+        },
+        {
+            'id': 'lu5JjYepEt64ncOWMsVA',
+            'name': 'Control Room',
+            'directions': {
+                'N': 'ckP95x0aUZpGS7mqOTUn',
+                'S': 'hnxbf0z3MiASDvnQNryD',
+                'E': 'z0i2eSZC5mKLO3edJPt',
+                'W': 'UXXDoKEOLpmJJRZLqovF',
             }
         }
     ]
